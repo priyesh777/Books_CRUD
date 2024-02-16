@@ -1,0 +1,162 @@
+[
+    {
+      "id":1,
+      "BooksName":"To Kill a Mockingbird",
+      "ISBN": "9780061120084",
+      "Rating": 4.27,
+      "Author": "Harper Lee",
+      "Genre": "Fiction" 
+    },
+    {
+        "id":2,
+        "BooksName":"1984",
+        "ISBN": "9780451524935",
+        "Rating": 4.19,
+        "Author": "George Orwell",
+        "Genre": "Science Fiction"  
+    },
+    {
+        "id":3,
+        "BooksName":"The Great Gatsby",
+        "ISBN": "9780743273565",
+        "Rating": 3.92,
+        "Author": "F. Scott Fitzgerald",
+        "Genre": "Classic"  
+    },
+    {
+        "id":4,
+        "BooksName":"Harry Potter and the Philosopher's Stone",
+        "ISBN": "9781408855652",
+        "Rating": 4.48,
+        "Author": "J.K. Rowling",
+        "Genre": "Fantasy"  
+    },
+    {
+        "id":5,
+        "BooksName":"The Catcher in the Rye",
+        "ISBN": "9780316769488",
+        "Rating": 3.81,
+        "Author": "J.D. Salinger",
+        "Genre": "Fiction"  
+    },
+    {
+        "id":6,
+        "BooksName":"Pride and Prejudice",
+        "ISBN": "9780486284736",
+        "Rating": 4.26,
+        "Author": "Jane Austen",
+        "Genre": "Classic"  
+    },
+    {
+        "id":7,
+        "BooksName":"The Hobbit",
+        "ISBN": "9780547928227",
+        "Rating": 4.28,
+        "Author": "J.R.R. Tolkien",
+        "Genre": "Fantasy"  
+    },
+    {
+        "id":8,
+        "BooksName":"Lord of the Flies",
+        "ISBN": "9780571273577",
+        "Rating": 3.68,
+        "Author": "William Golding",
+        "Genre": "Fiction"  
+    },
+    {
+        "id":9,
+        "BooksName":"The Da Vinci Code",
+        "ISBN": "9780307474278",
+        "Rating": 3.82,
+        "Author": "Dan Brown",
+        "Genre": "Thriller"  
+    },
+    {
+        "id":10,
+        "BooksName":"The Alchemist",
+        "ISBN": "9780061122415",
+        "Rating": 3.86,
+        "Author": "Paulo Coelho",
+        "Genre": "Fiction"  
+    },
+    {
+        "id":11,
+        "BooksName":"The Hunger Games",
+        "ISBN": "9780439023528",
+        "Rating": 4.33,
+        "Author": "Suzanne Collins",
+        "Genre": "Young Adult"  
+    },
+    {
+        "id":12,
+        "BooksName":"Gone with the Wind",
+        "ISBN": "9781416548898",
+        "Rating": 4.30,
+        "Author": "Margaret Mitchell",
+        "Genre": "Historical Fiction"  
+    },
+    {
+        "id":13,
+        "BooksName":"The Shining",
+        "ISBN": "9780307743657",
+        "Rating": 4.21,
+        "Author": "Stephen King",
+        "Genre": "Horror"  
+    },
+    {
+        "id":14,
+        "BooksName":"The Girl with the Dragon Tattoo",
+        "ISBN": "9780307454546",
+        "Rating": 4.14,
+        "Author": "Stieg Larsson",
+        "Genre": "Mystery"  
+    },
+    {
+        "id":15,
+        "BooksName":"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "ISBN": "9780064471046",
+        "Rating": 4.21,
+        "Author": "C.S. Lewis",
+        "Genre": "Fantasy"  
+    },
+    {
+        "id":16,
+        "BooksName":"Brave New World",
+        "ISBN": "9780060850524",
+        "Rating": 3.98,
+        "Author": "Aldous Huxley",
+        "Genre": "Science Fiction"  
+    },
+    {
+        "id":17,
+        "BooksName":"Moby-Dick",
+        "ISBN": "9781853260087",
+        "Rating": 3.53,
+        "Author": "Herman Melville",
+        "Genre": "Adventure"  
+    },
+    {
+        "id":18,
+        "BooksName":"The Adventures of Sherlock Holmes",
+        "ISBN": "9780553212419",
+        "Rating": 4.34,
+        "Author": "Arthur Conan Doyle",
+        "Genre": "Mystery"  
+    },
+    {
+        "id":19,
+        "BooksName":"The Road",
+        "ISBN": "9780307387899",
+        "Rating": 3.97,
+        "Author": "Cormac McCarthy",
+        "Genre": "Post-apocalyptic"  
+    },
+    {
+        "id":20,
+        "BooksName":"The Picture of Dorian Gray",
+        "ISBN": "9780486278070",
+        "Rating": 4.07,
+        "Author": "Oscar Wilde",
+        "Genre": "Gothic"
+    }
+  ]
