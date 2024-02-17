@@ -1,36 +1,37 @@
 //middleware functions
 
-const logCreateRequest = (req, res, next) => {
-    console.log(`
-    Create book with ID: ${req.body.id}
-    Adding new book with BooksName: ${req.body.BooksName},
-    ISBN:${req.body.ISBN},
-    Author: ${req.body.Author},
-    Genre:${req.body.Genre},
-    Rating: ${req.body.Rating}`);
+const logReadRequest = (_req, _res, next) => {
+    console.log("Middleware: fetch all books.");
     next();
-}
+};
 
-const logReadRequest = (req, res, next) => {
-    console.log('Fetch all books.');
+const logCreateRequest = (req, res, next) => {
+    const { booksName, isbn, author, genre, rating } = req.body;
+    console.log(
+        `
+      Adding new book with BooksName: ${booksName},
+      ISBN:${isbn},
+      Author: ${author},
+      Genre:${genre},
+      Rating: ${rating}`);
     next();
-}
+};
 
 const logUpdateRequest = (req, res, next) => {
-    console.log(`
-    Update book with ID: ${req.params.id},
-    BooksName: ${req.body.BooksName},
-    ISBN:${req.body.ISBN},
-    Author: ${req.body.Author},
-    Genre:${req.body.Genre},
-    Rating: ${req.body.Rating}`);
+    const { booksName, isbn, author, genre, rating } = req.body;
+    console.log(`Update book with
+      BooksName: ${booksName},
+      ISBN:${isbn},
+      Author: ${author},
+      Genre:${genre},
+      Rating: ${rating}`);
     next();
-}
+};
 
 const logDeleteRequest = (req, res, next) => {
     console.log(`Delete book with ID: ${req.params.id}`);
     next();
-}
+};
 
 module.exports = {
     logCreateRequest,

@@ -1,162 +1,142 @@
 [
     {
-      "id":1,
-      "BooksName":"To Kill a Mockingbird",
-      "ISBN": "9780061120084",
-      "Rating": 4.27,
-      "Author": "Harper Lee",
-      "Genre": "Fiction" 
+      "booksName":"To Kill a Mockingbird",
+      "isbn": "9780061120084",
+      "rating": 4.27,
+      "author": "Harper Lee",
+      "genre": "Fiction"
     },
     {
-        "id":2,
-        "BooksName":"1984",
-        "ISBN": "9780451524935",
-        "Rating": 4.19,
-        "Author": "George Orwell",
-        "Genre": "Science Fiction"  
+        "booksName":"1984",
+        "isbn": "9780451524935",
+        "rating": 4.19,
+        "author": "George Orwell",
+        "genre": "Science Fiction"
     },
     {
-        "id":3,
-        "BooksName":"The Great Gatsby",
-        "ISBN": "9780743273565",
-        "Rating": 3.92,
-        "Author": "F. Scott Fitzgerald",
-        "Genre": "Classic"  
+        "booksName":"The Great Gatsby",
+        "isbn": "9780743273565",
+        "rating": 3.92,
+        "author": "F. Scott Fitzgerald",
+        "genre": "Classic"
     },
     {
-        "id":4,
-        "BooksName":"Harry Potter and the Philosopher's Stone",
-        "ISBN": "9781408855652",
-        "Rating": 4.48,
-        "Author": "J.K. Rowling",
-        "Genre": "Fantasy"  
+        "booksName":"Harry Potter and the Philosopher's Stone",
+        "isbn": "9781408855652",
+        "rating": 4.48,
+        "author": "J.K. Rowling",
+        "genre": "Fantasy"
     },
     {
-        "id":5,
-        "BooksName":"The Catcher in the Rye",
-        "ISBN": "9780316769488",
-        "Rating": 3.81,
-        "Author": "J.D. Salinger",
-        "Genre": "Fiction"  
+        "booksName":"The Catcher in the Rye",
+        "isbn": "9780316769488",
+        "rating": 3.81,
+        "author": "J.D. Salinger",
+        "genre": "Fiction"
     },
     {
-        "id":6,
-        "BooksName":"Pride and Prejudice",
-        "ISBN": "9780486284736",
-        "Rating": 4.26,
-        "Author": "Jane Austen",
-        "Genre": "Classic"  
+        "booksName":"Pride and Prejudice",
+        "isbn": "9780486284736",
+        "rating": 4.26,
+        "author": "Jane Austen",
+        "genre": "Classic"
     },
     {
-        "id":7,
-        "BooksName":"The Hobbit",
-        "ISBN": "9780547928227",
-        "Rating": 4.28,
-        "Author": "J.R.R. Tolkien",
-        "Genre": "Fantasy"  
+        "booksName":"The Hobbit",
+        "isbn": "9780547928227",
+        "rating": 4.28,
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy"
     },
     {
-        "id":8,
-        "BooksName":"Lord of the Flies",
-        "ISBN": "9780571273577",
-        "Rating": 3.68,
-        "Author": "William Golding",
-        "Genre": "Fiction"  
+        "booksName":"Lord of the Flies",
+        "isbn": "9780571273577",
+        "rating": 3.68,
+        "author": "William Golding",
+        "genre": "Fiction"
     },
     {
-        "id":9,
-        "BooksName":"The Da Vinci Code",
-        "ISBN": "9780307474278",
-        "Rating": 3.82,
-        "Author": "Dan Brown",
-        "Genre": "Thriller"  
+        "booksName":"The Da Vinci Code",
+        "isbn": "9780307474278",
+        "rating": 3.82,
+        "author": "Dan Brown",
+        "genre": "Thriller"
     },
     {
-        "id":10,
-        "BooksName":"The Alchemist",
-        "ISBN": "9780061122415",
-        "Rating": 3.86,
-        "Author": "Paulo Coelho",
-        "Genre": "Fiction"  
+        "booksName":"The Alchemist",
+        "isbn": "9780061122415",
+        "rating": 3.86,
+        "author": "Paulo Coelho",
+        "genre": "Fiction"
     },
     {
-        "id":11,
-        "BooksName":"The Hunger Games",
-        "ISBN": "9780439023528",
-        "Rating": 4.33,
-        "Author": "Suzanne Collins",
-        "Genre": "Young Adult"  
+        "booksName":"The Hunger Games",
+        "isbn": "9780439023528",
+        "rating": 4.33,
+        "author": "Suzanne Collins",
+        "genre": "Young Adult"
     },
     {
-        "id":12,
-        "BooksName":"Gone with the Wind",
-        "ISBN": "9781416548898",
-        "Rating": 4.30,
-        "Author": "Margaret Mitchell",
-        "Genre": "Historical Fiction"  
+        "booksName":"Gone with the Wind",
+        "isbn": "9781416548898",
+        "rating": 4.30,
+        "author": "Margaret Mitchell",
+        "genre": "Historical Fiction"
     },
     {
-        "id":13,
-        "BooksName":"The Shining",
-        "ISBN": "9780307743657",
-        "Rating": 4.21,
-        "Author": "Stephen King",
-        "Genre": "Horror"  
+        "booksName":"The Shining",
+        "isbn": "9780307743657",
+        "rating": 4.21,
+        "author": "Stephen King",
+        "genre": "Horror"
     },
     {
-        "id":14,
-        "BooksName":"The Girl with the Dragon Tattoo",
-        "ISBN": "9780307454546",
-        "Rating": 4.14,
-        "Author": "Stieg Larsson",
-        "Genre": "Mystery"  
+        "booksName":"The Girl with the Dragon Tattoo",
+        "isbn": "9780307454546",
+        "rating": 4.14,
+        "author": "Stieg Larsson",
+        "genre": "Mystery"
     },
     {
-        "id":15,
-        "BooksName":"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
-        "ISBN": "9780064471046",
-        "Rating": 4.21,
-        "Author": "C.S. Lewis",
-        "Genre": "Fantasy"  
+        "booksName":"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "isbn": "9780064471046",
+        "rating": 4.21,
+        "author": "C.S. Lewis",
+        "genre": "Fantasy"
     },
     {
-        "id":16,
-        "BooksName":"Brave New World",
-        "ISBN": "9780060850524",
-        "Rating": 3.98,
-        "Author": "Aldous Huxley",
-        "Genre": "Science Fiction"  
+        "booksName":"Brave New World",
+        "isbn": "9780060850524",
+        "rating": 3.98,
+        "author": "Aldous Huxley",
+        "genre": "Science Fiction"
     },
     {
-        "id":17,
-        "BooksName":"Moby-Dick",
-        "ISBN": "9781853260087",
-        "Rating": 3.53,
-        "Author": "Herman Melville",
-        "Genre": "Adventure"  
+        "booksName":"Moby-Dick",
+        "isbn": "9781853260087",
+        "rating": 3.53,
+        "author": "Herman Melville",
+        "genre": "Adventure"
     },
     {
-        "id":18,
-        "BooksName":"The Adventures of Sherlock Holmes",
-        "ISBN": "9780553212419",
-        "Rating": 4.34,
-        "Author": "Arthur Conan Doyle",
-        "Genre": "Mystery"  
+        "booksName":"The Adventures of Sherlock Holmes",
+        "isbn": "9780553212419",
+        "rating": 4.34,
+        "author": "Arthur Conan Doyle",
+        "genre": "Mystery"
     },
     {
-        "id":19,
-        "BooksName":"The Road",
-        "ISBN": "9780307387899",
-        "Rating": 3.97,
-        "Author": "Cormac McCarthy",
-        "Genre": "Post-apocalyptic"  
+        "booksName":"The Road",
+        "isbn": "9780307387899",
+        "rating": 3.97,
+        "author": "Cormac McCarthy",
+        "genre": "Post-apocalyptic"
     },
     {
-        "id":20,
-        "BooksName":"The Picture of Dorian Gray",
-        "ISBN": "9780486278070",
-        "Rating": 4.07,
-        "Author": "Oscar Wilde",
-        "Genre": "Gothic"
+        "booksName":"The Picture of Dorian Gray",
+        "isbn": "9780486278070",
+        "rating": 4.07,
+        "author": "Oscar Wilde",
+        "genre": "Gothic"
     }
   ]

@@ -1,94 +1,65 @@
-const express = require('express');
-const Book = require('../model/model');
+const Book = require("../model/model");
 
-exports.getAllBooks = async (req, res) => {
+exports.getAllBooks = async (_req, res) => {
     try {
         const books = await Book.find();
         res.json(books);
-    }
-    catch (error) {
-        console.log('Catched an error::', error);
-        res.status(500).json({ error: 'Internal Server Error' });
+    } catch (error) {
+        console.log("Catched an error:", error);
+        res.status(500).json({ error: "Internal Server Error" });
     }
 };
 
-exports.createBook= async (req, res) => {
+exports.createBook = async (req, res) => {
     try {
-        const {
-            id,
-            BooksName,
-            ISBN,
-            Author,
-            Genre,
-            Rating,
-        } = req.body;
-        const newBook = await Book.create({
-            id,
-            BooksName,
-            ISBN,
-            Author,
-            Genre,
-            Rating,
+        const { booksName, isbn, author, genre, rating } = req.body;
+        const newBook = new Book({
+            booksName,
+            isbn,
+            author,
+            genre,
+            rating,
         });
-        res.json(newBook);
+        const response = await Book.create(newBook);
+        res.json(response);
+    } catch (error) {
+        console.log("Catched an error:", error);
+        res.status(500).json({ error: "Internal Server Error" });
     }
-    catch (error) {
-        console.log('Catched an error::', error);
-        res.status(500).json({ error: 'Internal Server Error' });
-    }
-}
-
+};
 
 exports.updateBook = async (req, res) => {
     try {
         const { id } = req.params;
-        const {
-            BooksName,
-            ISBN,
-            Author,
-            Genre,
-            Rating,
-        } = req.body;
+        const { booksName, isbn, author, genre, rating } = req.body;
         const updateBook = await Book.findByIdAndUpdate(
             id,
             {
-                BooksName,
-                ISBN,
-                Author,
-                Genre,
-                Rating,
+                booksName,
+                isbn,
+                author,
+                genre,
+                rating,
             },
-            { new: true },
+            { new: true }
         );
+        console.log("Updated book:", updateBook);
         res.json(updateBook);
+    } catch (error) {
+        console.log("Catched an error:", error);
+        res.status(500).json({ error: "Internal Server Error" });
     }
-    catch (error) {
-        console.log('Catched an error::', error);
-        res.status(500).json({ error: 'Internal Server Error' });
-    }
-}
+};
 
 exports.deleteBook = async (req, res) => {
     try {
         const { id } = req.params;
-        const {
-            BooksName,
-            ISBN,
-            Author,
-            Genre,
-            Rating,
-        } = req.body;
-        const updateBook = await Book.findByIdAndDelete(id, {
-            BooksName,
-            ISBN,
-            Author,
-            Genre,
-            Rating,
-        }, { new: true });
-        res.json(updateBook)
+        const deleteBook = await Book.findByIdAndDelete(id);
+        if (deleteBook) {
+            res.json({ message: "Book deleted successfully" });
+        }
+    } catch (error) {
+        console.log("Catched an error:", error);
+        res.status(500).json({ error: "Internal Server Error" });
     }
-    catch (error) {
-        console.log('Catched an error::', error);
-        res.status(500).json({ error: 'Internal Server Error' });
-    }
-}
+};
